@@ -125,3 +125,20 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+# CodeIgniter-specific ignores
+/application/config/*
+/application/logs/*
+/application/cache/*
+/vendor/
+/uploads/
+.env
+
+# IDE/Editor-specific ignores
+.vscode/
+.idea/
+.project
+.phpstorm.meta.php
+
+# Operating System-specific ignores
+.DS_Store
+Thumbs.db
