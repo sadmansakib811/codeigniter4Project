@@ -26,7 +26,7 @@ class Validation extends BaseConfig
         FileRules::class,
         CreditCardRules::class,
     ];
-
+    public $displayErrors = true;
     /**
      * Specifies the views that are used to display the
      * errors.
